@@ -1,0 +1,36 @@
+ano,título,descrição
+1943,Desenvolvimento do Neurônio Artificial,Warren McCulloch e Walter Pitts desenvolvem um modelo de neurônio artificial, utilizando chaves ligado/desligado para ativar os neurônios e transmitir informações.
+1943,Desafios da Inteligência Artificial durante a Segunda Guerra Mundial,Alan Turing e o neurologista Grey Walter estavam entre as mentes brilhantes que enfrentaram os desafios das máquinas inteligentes durante a Segunda Guerra Mundial.
+1946,Criação do ENIAC, o Primeiro Computador Digital de Grande Escala,John Eckert e John Mauchly revelam o ENIAC (Electronic Numerical Integrator And Computer), o primeiro computador eletrônico digital de larga escala.
+1949,Publicação do Livro "Máquinas Que Pensam",Edmund Berkeley publica "Giant Brains: Or Machines That Think", comparando a capacidade das máquinas com o cérebro humano e concluindo que as máquinas "podem pensar".
+1950,Proposta do Teste de Turing,Alan Turing publica seu artigo "Computing Machinery and Intelligence", introduzindo o Teste de Turing, um método para avaliar se uma máquina exibe comportamento inteligente equivalente a um ser humano.
+1950,Ficção Científica e as Três Leis da Robótica,Isaac Asimov, um escritor de ficção científica, imagina o futuro da inteligência da máquina e é mais conhecido pelas Três Leis da Robótica.
+1956,Cunhagem do Termo "Inteligência Artificial",O termo "inteligência artificial" é cunhado na Conferência de Dartmouth.
+1959,Arthur Samuel e o Jogo de Damas,Arthur Samuel desenvolve um programa de computador que aprende a jogar damas, demonstrando o potencial do aprendizado de máquina.
+1965,Criação do Primeiro Chatbot - ELIZA,Joseph Weizenbaum, do MIT, cria o programa ELIZA, um dos primeiros chatbots capazes de se comunicar com humanos de forma simples.
+1966,Criação do Programa DENDRAL,Edward Feigenbaum, Bruce Buchanan e Joshua Lederberg desenvolvem o DENDRAL na Universidade de Stanford, um dos primeiros sistemas especialistas.
+1972,Desenvolvimento de Sistemas de IA na Área Médica,Ted Shortliffe, da Universidade de Stanford, desenvolve um sistema para realizar diagnóstico e tratamento de doenças.
+1974,Inverno da IA,Os governos dos EUA e do Reino Unido param de financiar pesquisas não direcionadas sobre inteligência artificial, levando a um período conhecido como "inverno da IA" devido à retirada de financiamento.
+1980,Avanços Significativos em IA,O Japão inicia investimentos maciços em IA, o "NETtalk" permite que um computador ganhe voz pela primeira vez, e o Google desenvolve seu primeiro protótipo de buscador.
+1980,Sistemas Especialistas,Desenvolvimento de sistemas especialistas como o MYCIN para diagnóstico médico, demonstrando a capacidade da IA para resolver problemas específicos.
+1997,Vitória de um Computador sobre um Campeão Humano de Xadrez,Um computador vence o campeão mundial de xadrez Garry Kasparov.
+2000,Primeira Competição de Robôs Autônomos - DARPA Grand Challenge,O Departamento de Defesa dos EUA organiza o DARPA Grand Challenge, incentivando o desenvolvimento de veículos autônomos.
+2000,Início do Desenvolvimento de Carros Autônomos,Pesquisas e desenvolvimentos iniciam na área de carros autônomos com inteligência artificial.
+2006,Aprendizado Profundo (Deep Learning),Geoffrey Hinton e seus colaboradores demonstram a eficácia do aprendizado profundo, utilizando redes neurais com várias camadas para tarefas complexas de reconhecimento de imagem.
+2011,IBM Watson vence Jeopardy!,A vitória do sistema de IA da IBM, Watson, no jogo de perguntas e respostas Jeopardy!, demonstra o avanço da IA em áreas que exigem processamento de linguagem natural e raciocínio.
+2015,Criação do OpenAI,Elon Musk, Sam Altman, Greg Brockman e outros fundam o OpenAI, uma organização de pesquisa em IA focada em promover e desenvolver IA amigável para beneficiar a humanidade.
+2016,AlphaGo vence Lee Sedol,O programa AlphaGo da DeepMind derrota o campeão mundial de Go, Lee Sedol.
+2017,Invenção do Transformer,O Google inventa o 'Transformer' — uma arquitetura de IA moderna que se tornará a base da IA Generativa.
+2017,IA Generativa em Arte,A criação de obras de arte por meio de IA generativa, como a obra "Portrait of Edmond de Belamy", leiloada por US$ 432.500.
+2018,BERT - Introdução de Modelos de Linguagem Bidirecionais,O Google lança o BERT (Bidirectional Encoder Representations from Transformers), um avanço significativo na compreensão de linguagem natural.
+2018,GANs (Redes Adversariais Generativas),A criação e o aprimoramento de GANs, que permitem gerar imagens e dados realistas.
+2020,AlphaFold 2 Resolve Problemas de Estrutura Proteica,O DeepMind revela o AlphaFold 2, um modelo de IA que prevê com alta precisão as estruturas tridimensionais de proteínas.
+2020,IA no Combate à Pandemia,A IA é utilizada para análise de dados, descoberta de medicamentos, desenvolvimento de vacinas e rastreio de contatos durante a pandemia de COVID-19.
+2022,Introdução do ChatGPT,A IA aberta toma o mundo de assalto com sua introdução viral do ChatGPT.
+2023,Regulamentação da IA na União Europeia,A Lei da UE sobre IA é assinada como Lei Europeia.
+2023,Corrida da IA Generativa,Várias empresas lançam versões iterativamente aprimoradas de seus modelos de IA generativa.
+2023,IA Generativa no Mundo do Trabalho,A Microsoft traz a IA generativa para o mundo do trabalho com o Copilot totalmente integrado aos aplicativos do Office 365.
+2023,Assistentes de Programação em Pares,Assistentes de programação em pares como Copilot X, Github Copilot, Databricks Assistant e Amazon Bedrock estão revolucionando o desenvolvimento de software.
+2024,Robôs Alimentados por IA Generativa,Robôs humanoides alimentados por IA generativa são introduzidos em fábricas de empresas como Tesla e BMW.
+2024,Pequenos Modelos de Linguagem e IA no Dispositivo,Pequenos modelos de linguagem (SLMs) como Phi-2 e IA 'no dispositivo' são introduzidos por empresas como Microsoft e Samsung.
+2024,IA Generativa na Indústria,A integração da IA generativa em setores como o automotivo, manufatura e saúde abre novas possibilidades para a otimização de processos e desenvolvimento de produtos.

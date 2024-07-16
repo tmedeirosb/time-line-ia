@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo da Inteligência Artificial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #000;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #000;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid #000;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #000;
+        }
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid #000;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #000 transparent transparent;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+        }
+        .year {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .event {
+            margin: 10px 0;
+        }
+        .event-title {
+            font-weight: bold;
+        }
+        @media screen and (max-width: 600px) {
+            .timeline::after {
+                left: 31px;
+            }
+            .container {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+            .container::before {
+                left: 60px;
+                border: medium solid #000;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent #000 transparent transparent;
+            }
+            .left::after, .right::after {
+                left: 15px;
+            }
+            .right {
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <div class="year">1940-1950</div>
+                <div class="event">
+                    <div class="event-title">1943: Desenvolvimento do Neurônio Artificial</div>
+                    <div>Warren McCulloch e Walter Pitts desenvolvem um modelo de neurônio artificial, utilizando chaves ligado/desligado para ativar os neurônios e transmitir informações.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1943: Desafios da Inteligência Artificial durante a Segunda Guerra Mundial</div>
+                    <div>Alan Turing e o neurologista Grey Walter estavam entre as mentes brilhantes que enfrentaram os desafios das máquinas inteligentes durante a Segunda Guerra Mundial.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1946: Criação do ENIAC, o Primeiro Computador Digital de Grande Escala</div>
+                    <div>John Eckert e John Mauchly revelam o ENIAC (Electronic Numerical Integrator And Computer), o primeiro computador eletrônico digital de larga escala.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1949: Publicação do Livro "Máquinas Que Pensam"</div>
+                    <div>Edmund Berkeley publica "Giant Brains: Or Machines That Think", comparando a capacidade das máquinas com o cérebro humano e concluindo que as máquinas "podem pensar".</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1950: Proposta do Teste de Turing</div>
+                    <div>Alan Turing publica seu artigo "Computing Machinery and Intelligence", introduzindo o Teste de Turing, um método para avaliar se uma máquina exibe comportamento inteligente equivalente a um ser humano.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1950: Ficção Científica e as Três Leis da Robótica</div>
+                    <div>Isaac Asimov, um escritor de ficção científica, imagina o futuro da inteligência da máquina e é mais conhecido pelas Três Leis da Robótica.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <div class="year">1950-1960</div>
+                <div class="event">
+                    <div class="event-title">1956: Cunhagem do Termo "Inteligência Artificial"</div>
+                    <div>O termo "inteligência artificial" é cunhado na Conferência de Dartmouth.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1959: Arthur Samuel e o Jogo de Damas</div>
+                    <div>Arthur Samuel desenvolve um programa de computador que aprende a jogar damas, demonstrando o potencial do aprendizado de máquina.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <div class="year">1960-1970</div>
+                <div class="event">
+                    <div class="event-title">1965: Criação do Primeiro Chatbot - ELIZA</div>
+                    <div>Joseph Weizenbaum, do MIT, cria o programa ELIZA, um dos primeiros chatbots capazes de se comunicar com humanos de forma simples.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1966: Criação do Programa DENDRAL</div>
+                    <div>Edward Feigenbaum, Bruce Buchanan e Joshua Lederberg desenvolvem o DENDRAL na Universidade de Stanford, um dos primeiros sistemas especialistas.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <div class="year">1970-1980</div>
+                <div class="event">
+                    <div class="event-title">1972: Desenvolvimento de Sistemas de IA na Área Médica</div>
+                    <div>Ted Shortliffe, da Universidade de Stanford, desenvolve um sistema para realizar diagnóstico e tratamento de doenças.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">1974 e Década de 1980: Inverno da IA</div>
+                    <div>Os governos dos EUA e do Reino Unido param de financiar pesquisas não direcionadas sobre inteligência artificial, levando a um período conhecido como "inverno da IA" devido à retirada de financiamento.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">Década de 1980: Avanços Significativos em IA</div>
+                    <div>O Japão inicia investimentos maciços em IA, o "NETtalk" permite que um computador ganhe voz pela primeira vez, e o Google desenvolve seu primeiro protótipo de buscador.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">Década de 1980: Sistemas Especialistas</div>
+                    <div>Desenvolvimento de sistemas especialistas como o MYCIN para diagnóstico médico, demonstrando a capacidade da IA para resolver problemas específicos.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <div class="year">1990-2000</div>
+                <div class="event">
+                    <div class="event-title">1997: Vitória de um Computador sobre um Campeão Humano de Xadrez</div>
+                    <div>Um computador vence o campeão mundial de xadrez Garry Kasparov.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2000: Primeira Competição de
+
+ Robôs Autônomos - DARPA Grand Challenge</div>
+                    <div>O Departamento de Defesa dos EUA organiza o DARPA Grand Challenge, incentivando o desenvolvimento de veículos autônomos.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <div class="year">2000-2010</div>
+                <div class="event">
+                    <div class="event-title">Anos 2000: Início do Desenvolvimento de Carros Autônomos</div>
+                    <div>Pesquisas e desenvolvimentos iniciam na área de carros autônomos com inteligência artificial.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2006: Aprendizado Profundo (Deep Learning)</div>
+                    <div>Geoffrey Hinton e seus colaboradores demonstram a eficácia do aprendizado profundo, utilizando redes neurais com várias camadas para tarefas complexas de reconhecimento de imagem.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2011: IBM Watson vence Jeopardy!</div>
+                    <div>A vitória do sistema de IA da IBM, Watson, no jogo de perguntas e respostas Jeopardy!, demonstra o avanço da IA em áreas que exigem processamento de linguagem natural e raciocínio.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <div class="year">2010-2020</div>
+                <div class="event">
+                    <div class="event-title">2015: Criação do OpenAI</div>
+                    <div>Elon Musk, Sam Altman, Greg Brockman e outros fundam o OpenAI, uma organização de pesquisa em IA focada em promover e desenvolver IA amigável para beneficiar a humanidade.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2016: AlphaGo vence Lee Sedol</div>
+                    <div>O programa AlphaGo da DeepMind derrota o campeão mundial de Go, Lee Sedol.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2017: Invenção do Transformer</div>
+                    <div>O Google inventa o 'Transformer' — uma arquitetura de IA moderna que se tornará a base da IA Generativa.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2017: IA Generativa em Arte</div>
+                    <div>A criação de obras de arte por meio de IA generativa, como a obra "Portrait of Edmond de Belamy", leiloada por US$ 432.500.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2018: BERT - Introdução de Modelos de Linguagem Bidirecionais</div>
+                    <div>O Google lança o BERT (Bidirectional Encoder Representations from Transformers), um avanço significativo na compreensão de linguagem natural.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2018: GANs (Redes Adversariais Generativas)</div>
+                    <div>A criação e o aprimoramento de GANs, que permitem gerar imagens e dados realistas.</div>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <div class="year">2020-2024</div>
+                <div class="event">
+                    <div class="event-title">2020: AlphaFold 2 Resolve Problemas de Estrutura Proteica</div>
+                    <div>O DeepMind revela o AlphaFold 2, um modelo de IA que prevê com alta precisão as estruturas tridimensionais de proteínas.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2020: IA no Combate à Pandemia</div>
+                    <div>A IA é utilizada para análise de dados, descoberta de medicamentos, desenvolvimento de vacinas e rastreio de contatos durante a pandemia de COVID-19.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2022: Introdução do ChatGPT</div>
+                    <div>A IA aberta toma o mundo de assalto com sua introdução viral do ChatGPT.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2023: Regulamentação da IA na União Europeia</div>
+                    <div>A Lei da UE sobre IA é assinada como Lei Europeia.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2023-2024: Corrida da IA Generativa</div>
+                    <div>Várias empresas lançam versões iterativamente aprimoradas de seus modelos de IA generativa.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2023-2024: IA Generativa no Mundo do Trabalho</div>
+                    <div>A Microsoft traz a IA generativa para o mundo do trabalho com o Copilot totalmente integrado aos aplicativos do Office 365.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2023-2024: Assistentes de Programação em Pares</div>
+                    <div>Assistentes de programação em pares como Copilot X, Github Copilot, Databricks Assistant e Amazon Bedrock estão revolucionando o desenvolvimento de software.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2024: Robôs Alimentados por IA Generativa</div>
+                    <div>Robôs humanoides alimentados por IA generativa são introduzidos em fábricas de empresas como Tesla e BMW.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2024: Pequenos Modelos de Linguagem e IA no Dispositivo</div>
+                    <div>Pequenos modelos de linguagem (SLMs) como Phi-2 e IA 'no dispositivo' são introduzidos por empresas como Microsoft e Samsung.</div>
+                </div>
+                <div class="event">
+                    <div class="event-title">2024: IA Generativa na Indústria</div>
+                    <div>A integração da IA generativa em setores como o automotivo, manufatura e saúde abre novas possibilidades para a otimização de processos e desenvolvimento de produtos.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

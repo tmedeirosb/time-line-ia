@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+import streamlit.components.v1 as components
 
 # Carregar a base de dados
 df = pd.read_csv('ia_historico.csv')
@@ -48,3 +49,12 @@ fig_wordcloud, ax_wordcloud = plt.subplots()
 ax_wordcloud.imshow(wordcloud, interpolation='bilinear')
 ax_wordcloud.axis('off')
 st.pyplot(fig_wordcloud)
+
+# Visualização HTML com slidedown
+st.subheader("Visualização Estática")
+with st.expander("Clique aqui para visualizar a timeline"):
+    # Carregar o arquivo HTML
+    with open('timeline.html', 'r', encoding='utf-8') as f:
+        html_content = f.read()
+    # Renderizar o HTML
+    components.html(html_content, height=600, scrolling=True)

@@ -55,14 +55,14 @@ with tab1:
                 st.write(f"*{row['descrição']}*")
 
     # Gráfico de barras (Histograma) agrupado por década
-    st.subheader("Histograma de Artigos por Década")
+    st.subheader("Histograma de Fatos Históricos por Década")
     df['decade'] = (df['ano'] // 10) * 10
     decade_counts = df['decade'].value_counts().sort_index()
     fig, ax = plt.subplots()
     decade_counts.plot(kind='bar', ax=ax)
     ax.set_xlabel("Década")
-    ax.set_ylabel("Quantidade de Artigos")
-    ax.set_title("Quantidade de Artigos Publicados por Década")
+    ax.set_ylabel("Quantidade de Fatos")
+    ax.set_title("Quantidade de Fatos Publicados por Década")
     st.pyplot(fig)
 
     # Wordcloud

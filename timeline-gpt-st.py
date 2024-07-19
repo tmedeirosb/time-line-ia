@@ -75,14 +75,14 @@ with tab1:
     ax_wordcloud.axis('off')
     st.pyplot(fig_wordcloud)
 
-    # Visualização HTML com slidedown
-    st.subheader("Visualização Estática")
-    with st.expander("Clique aqui para visualizar a timeline"):
-        # Carregar o arquivo HTML
-        with open('timeline.html', 'r', encoding='utf-8') as f:
-            html_content = f.read()
-        # Renderizar o HTML
-        components.html(html_content, height=600, scrolling=True)
+    # # Visualização HTML com slidedown
+    # st.subheader("Visualização Estática")
+    # with st.expander("Clique aqui para visualizar a timeline"):
+    #     # Carregar o arquivo HTML
+    #     with open('timeline.html', 'r', encoding='utf-8') as f:
+    #         html_content = f.read()
+    #     # Renderizar o HTML
+    #     components.html(html_content, height=600, scrolling=True)
 
 # Segunda aba: Artigos
 with tab2:
